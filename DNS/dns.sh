@@ -11,6 +11,6 @@ sudo systemctl status bind9
 sudo ufw status 
 #sudo ufw enable
 
-#sudo ufw enable bind9
+#sudo ufw allow bind9
 #sudo ufw reload 
 #sudo ufw status
