@@ -1,8 +1,9 @@
-------------------------------DNS--------------------------------
+------------------------------DNS---------------------------------
 
 1) apt install bind9 bind9utils bind9-doc net-tools -y
 2) go to -> cd /etc/bind
 3) cp db.127 db.192
+   cp db.local db.example.com
 4) nano db.example.com  -> change this below field as per your configuration:
 
 @	IN	SOA	example.com. root.example.com.  (
