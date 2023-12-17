@@ -1,0 +1,10 @@
+sudo apt install openssh-server
+
+sudo systemctl status sshd
+
+
+For Windows 
+
+Open PowerShell -> 
+
+ssh {hostname}@{ip}

@@ -1,0 +1,13 @@
+dn: ou=People,dc=example,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: uid=johndoe,ou=People,dc=example,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: John Doe
+sn: Doe
+uid: johndoe
+userPassword: {SSHA}hashed_password_here //ENTER THE GENERATED HASHED VALUE OF YOUR PASSWORD
