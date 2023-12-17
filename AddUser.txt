@@ -1,0 +1,20 @@
+#Add User
+sudo adduser username
+
+# List of Services
+sudo systemctl -t service
+
+#StopService
+sudo systemctl stop cups.service
+
+#Disable Service
+sudo systemctl disable cups.service
+
+#Sudo Settings
+sudo adduser user2
+
+#Add User in /etc/sudoers file
+sudo nano /etc/sudoers
+
+# Allow members of group sudo to execute any command
+%user2   ALL=(ALL:ALL) ALL
