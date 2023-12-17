@@ -1,7 +1,12 @@
 sudo apt install openssh-server
 
-sudo systemctl status sshd
+sudo nano /etc/hosts.allow:
 
+	sshd : ALL
+	ALL : ALL
+
+sudo systemctl enable sshd
+sudo systemctl start sshd
 
 For Windows 
 
