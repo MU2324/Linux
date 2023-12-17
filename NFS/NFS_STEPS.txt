@@ -5,6 +5,11 @@
 3) systemctl status nfs-kernel-server
 4) mkdir /home/user/nfsshare1
 5) nano /home/user/nfsshare1/hello.txt
+6) nano /etc/exports:
+	path of folder of server <client-IP>(rw,sync,subtree_check)
+7) exportfs -a
+8) systemctl restart nfs-kernel-server
+
 
 -------NFS_Client---------------
 1) apt install nfs-common
